@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "analogy-steering"
+version = "0.1.0"
+description = "Activation steering and analogous pairs (final-year project, Maynooth University)"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["src"]
