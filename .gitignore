@@ -32,3 +32,6 @@ docs/papers/
 # ---- Hugging Face local files
 .cache/
 hf_cache/
+
+
+*.egg-info/
